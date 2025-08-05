@@ -39,15 +39,15 @@ If each horizon is fundamentally an *information-theoretic membrane,* then black
 
 We survey the major strands that inform EBHN, emphasizing results published in the past three years.  
 
-| Topic | Key finding | Source |
-|-------|-------------|--------|
-| **Quantum-corrected horizons** | α*M*²/*r*⁴ correction regularizes LQG black-hole interior; horizon splits into outer + inner layers | :contentReference[oaicite:6]{index=6} |
-| **Quantum hair** | Higher-order curvature terms permit stationary solutions with external information imprint, solving information paradox | :contentReference[oaicite:7]{index=7} |
-| **Planckeon lattice** | Planck-scale fluctuations generate a dense net of microscopic wormholes, realizing ER = EPR at *ℓ*ₚ | :contentReference[oaicite:8]{index=8} |
-| **ER = EPR generalizations** | Entanglement between arbitrary horizons implies a non-traversable bridge; holographic tensor-network models reproduce bulk | :contentReference[oaicite:9]{index=9} |
-| **Early SMBH growth** | JWST finds ∼10⁹ *M*⊙ black holes at *z* ≈ 10–12, stressing ΛCDM seeding scenarios | :contentReference[oaicite:10]{index=10} |
-| **Beyond-GR ring-down models** | Parametrized IMR (inspiral–merger–ring-down) waveforms allow O(10⁻²) deviations measurable by next-gen detectors | :contentReference[oaicite:11]{index=11} |
-| **EHT polarimetric variability** | Sagittarius A* exhibits sub-hour Faraday-rotation swings; M87 shadow persists yet shows P-mode flicker | :contentReference[oaicite:12]{index=12} |
+| Topic | Key finding |
+|-------|-------------|
+| **Quantum-corrected horizons** | α*M*²/*r*⁴ correction regularizes LQG black-hole interior; horizon splits into outer + inner layers |
+| **Quantum hair** | Higher-order curvature terms permit stationary solutions with external information imprint, solving information paradox |
+| **Planckeon lattice** | Planck-scale fluctuations generate a dense net of microscopic wormholes, realizing ER = EPR at *ℓ*ₚ |
+| **ER = EPR generalizations** | Entanglement between arbitrary horizons implies a non-traversable bridge; holographic tensor-network models reproduce bulk |
+| **Early SMBH growth** | JWST finds ∼10⁹ *M*⊙ black holes at *z* ≈ 10–12, stressing ΛCDM seeding scenarios |
+| **Beyond-GR ring-down models** | Parametrized IMR (inspiral–merger–ring-down) waveforms allow O(10⁻²) deviations measurable by next-gen detectors |
+| **EHT polarimetric variability** | Sagittarius A* exhibits sub-hour Faraday-rotation swings; M87 shadow persists yet shows P-mode flicker |
 
 These results collectively encourage a theoretical treatment that foregrounds entanglement as *ontic,* not merely epistemic.
 
