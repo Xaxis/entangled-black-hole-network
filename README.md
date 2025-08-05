@@ -7,7 +7,7 @@ Wil Neeley — August 2025
 
 ## Abstract  
 
-Classical general relativity (GR) predicts that the interior of an astrophysical black hole collapses to a point of **infinite density and curvature**.  Modern quantum-gravity approaches dispute the physical reality of such “singularities,” instead replacing them with Planck-scale, finite-density cores that store information in non-local quantum correlations :contentReference[oaicite:0]{index=0}.  The **ER = EPR** conjecture goes further, asserting that quantum entanglement *is* spacetime connectivity: an Einstein–Rosen bridge is the geometrical avatar of a maximally entangled pair :contentReference[oaicite:1]{index=1}.  Motivated by these threads, we propose the **Entangled Black-Hole Network (EBHN)**, a weighted graph in which every astrophysical horizon is a vertex and each edge is quantified by the mutual entanglement entropy between the horizons it links.  By coarse-graining the graph via the Ryu–Takayanagi relation, we derive an *informational stress–energy tensor* that amends Einstein’s field equations, sourcing curvature directly from entanglement.  The framework (i) explains the near-flatness of the late-time Friedmann–Robertson–Walker metric without a fine-tuned cosmological constant, (ii) accounts for the early appearance of billion-solar-mass black holes that the James Webb Space Telescope (JWST) has discovered at redshift *z* ≳ 10 :contentReference[oaicite:2]{index=2}, and (iii) furnishes falsifiable predictions for correlated gravitational-wave ring-downs, horizon-scale polarimetric flicker, and non-Gaussian cosmic microwave background (CMB) trispectra.  We present an extensive literature review, a field-equation derivation, graph-theoretic simulations, and a detailed experimental roadmap.  
+Classical general relativity (GR) predicts that the interior of an astrophysical black hole collapses to a point of **infinite density and curvature**.  Modern quantum-gravity approaches dispute the physical reality of such “singularities,” instead replacing them with Planck-scale, finite-density cores that store information in non-local quantum correlations.  The **ER = EPR** conjecture goes further, asserting that quantum entanglement *is* spacetime connectivity: an Einstein–Rosen bridge is the geometrical avatar of a maximally entangled pair.  Motivated by these threads, we propose the **Entangled Black-Hole Network (EBHN)**, a weighted graph in which every astrophysical horizon is a vertex and each edge is quantified by the mutual entanglement entropy between the horizons it links.  By coarse-graining the graph via the Ryu–Takayanagi relation, we derive an *informational stress–energy tensor* that amends Einstein’s field equations, sourcing curvature directly from entanglement.  The framework (i) explains the near-flatness of the late-time Friedmann–Robertson–Walker metric without a fine-tuned cosmological constant, (ii) accounts for the early appearance of billion-solar-mass black holes that the James Webb Space Telescope (JWST) has discovered at redshift *z* ≳ 10, and (iii) furnishes falsifiable predictions for correlated gravitational-wave ring-downs, horizon-scale polarimetric flicker, and non-Gaussian cosmic microwave background (CMB) trispectra.  We present an extensive literature review, a field-equation derivation, graph-theoretic simulations, and a detailed experimental roadmap.  
 
 ---
 
@@ -19,7 +19,7 @@ When Oppenheimer and Snyder first described gravitational collapse in 1939, they
 
 $K = R_{\mu\nu\rho\sigma}\,R^{\mu\nu\rho\sigma}$  
 
-divergent at that center, signaling a breakdown of the theory.  Contemporary quantum-gravity programmes, however, modify the Schwarzschild or Kerr metric with Planck-suppressed corrections that **regularize the blow-up**.  Loop-quantum-gravity (LQG) “polymerization,” higher-derivative effective field terms, and string-theoretic fuzzballs each yield finite curvature radii and dual-horizon structures :contentReference[oaicite:3]{index=3}.  Phenomenologically, these modifications introduce gravitational echoes, quantum hair, or firewalls, but *not* infinities.  
+divergent at that center, signaling a breakdown of the theory.  Contemporary quantum-gravity programmes, however, modify the Schwarzschild or Kerr metric with Planck-suppressed corrections that **regularize the blow-up**.  Loop-quantum-gravity (LQG) “polymerization,” higher-derivative effective field terms, and string-theoretic fuzzballs each yield finite curvature radii and dual-horizon structures.  Phenomenologically, these modifications introduce gravitational echoes, quantum hair, or firewalls, but *not* infinities.  
 
 ### 1.2 From entanglement to geometry  
 
@@ -31,7 +31,7 @@ In 2013, Maldacena and Susskind crystallized the slogan **ER = EPR**: *Entangled
 
 ### 1.3 Toward a networked picture of horizons  
 
-If each horizon is fundamentally an *information-theoretic membrane,* then black holes are not isolated sinkholes but **nodes** in a larger entanglement fabric.  Planck-energy fluctuations—*planckeons*—already hint at a microscopic wormhole lattice that interweaves spacetime at short distances :contentReference[oaicite:5]{index=5}.  What if *macroscopic* horizons participate in an analogous but sparser graph, whose connectivity statistics shape cosmic curvature at gigaparsec scales?  This conjecture motivates the EBHN framework developed herein.
+If each horizon is fundamentally an *information-theoretic membrane,* then black holes are not isolated sinkholes but **nodes** in a larger entanglement fabric.  Planck-energy fluctuations—*planckeons*—already hint at a microscopic wormhole lattice that interweaves spacetime at short distances.  What if *macroscopic* horizons participate in an analogous but sparser graph, whose connectivity statistics shape cosmic curvature at gigaparsec scales?  This conjecture motivates the EBHN framework developed herein.
 
 ---
 
@@ -43,7 +43,7 @@ We survey the major strands that inform EBHN, emphasizing results published in t
 |-------|-------------|
 | **Quantum-corrected horizons** | $ \alpha M^2 / r^4 $ correction regularizes LQG black-hole interior; horizon splits into outer + inner layers |
 | **Quantum hair** | Higher-order curvature terms permit stationary solutions with external information imprint, solving information paradox |
-| **Planckeon lattice** | Planck-scale fluctuations generate a dense net of microscopic wormholes, realizing ER = EPR at $ \ell_P $ |
+| **Planckeon lattice** | Planck-scale fluctuations generate a dense net of microscopic wormholes, realizing ER = EPR at $\ell_P$ |
 | **ER = EPR generalizations** | Entanglement between arbitrary horizons implies a non-traversable bridge; holographic tensor-network models reproduce bulk |
 | **Early SMBH growth** | JWST finds ∼10⁹ $M_\odot$ black holes at $z \approx 10$–12, stressing ΛCDM seeding scenarios |
 | **Beyond-GR ring-down models** | Parametrized IMR waveforms allow $\mathcal O(10^{-2})$ deviations measurable by next-gen detectors |
@@ -69,23 +69,13 @@ normalized by the maximum possible bipartite entropy for the given horizon areas
 
 Analogous to the RT relation, we promote coarse-grained edge density into a tensor field:
 
-$$
-T^{\text{info}}_{\mu\nu}
-  = \frac{\kappa}{\ell_P^{\,2}}
-    \sum_{i,j} w_{ij}\,
-      \bigl(\nabla_\mu \phi_{ij}\bigr)
-      \bigl(\nabla_\nu \phi_{ij}\bigr),
-$$
+$$ T_{\mu\nu}^{\mathrm{info}} = \frac{\kappa}{\ell_{P}^{2}} \sum_{i,j} w_{ij}\, (\nabla_{\mu}\phi_{ij})(\nabla_{\nu}\phi_{ij}) $$
 
 where $\phi_{ij}(x)$ is a scalar potential mediating information flux along $E_{ij}$ and $\kappa$ is fixed by requiring that, at the horizon, $8\pi G\,T^{\text{info}}_{tt}$ reproduces the Bekenstein–Hawking entropy density.
 
 ### P3 — Modified Einstein equations  
 
-$$
-R_{\mu\nu} - \tfrac12\,g_{\mu\nu}\,R + \Lambda g_{\mu\nu}
-  = 8\pi G\bigl(T^{\text{matter}}_{\mu\nu}
-               + T^{\text{info}}_{\mu\nu}\bigr).
-$$  
+$$ R_{\mu\nu} - \tfrac{1}{2}\, g_{\mu\nu}\, R + \Lambda\, g_{\mu\nu} = 8\pi G \left( T_{\mu\nu}^{\mathrm{matter}} + T_{\mu\nu}^{\mathrm{info}} \right) $$
 
 In regions devoid of ordinary matter, $T^{\text{matter}}_{\mu\nu}=0$, yet **curvature persists** if the local graph density is non-zero.
 
@@ -182,10 +172,7 @@ EBHN accelerates black-hole mass assembly through *entanglement-assisted accreti
 1. **Ring-down phase correlations**  
    Binary black-hole mergers produce quasi-normal-mode (QNM) frequencies $\omega_{n\ell m}$.  In EBHN, entanglement back reaction introduces an *edge-dependent phase shift*  
 
-   $$
-   \delta\phi_{ij} \simeq \varepsilon\,w_{ij},
-   \qquad \varepsilon \sim 10^{-3}.
-   $$
+   $$ \delta\phi_{ij} \simeq \varepsilon\, w_{ij},\quad \varepsilon \sim 10^{-3} $$
 
    For two mergers A and B separated by ≈ 1 Gpc but sharing a strong edge ($w_{AB}\gtrsim0.5$), their ring-down phases should exhibit correlated residuals $|\Delta\phi|\approx10^{-4}$ rad, detectable by the Einstein Telescope and Cosmic Explorer.
 
@@ -265,14 +252,14 @@ The Entangled Black-Hole Network presents a **self-consistent, falsifiable parad
 
 ## References  
 
-1. A. Kowalski *et al.* “Loop Quantum Gravity Effects on Black-Hole Physics and Their Astrophysical Signatures,” *JCAP* **2025** (06): 014. :contentReference[oaicite:17]{index=17}  
-2. X. Calmet & B. Latosh, “Quantum Hair and Black-Hole Information,” *Phys. Rev. D* **102** (2025): 084027. :contentReference[oaicite:18]{index=18}  
-3. F. Lobo *et al.* “Planckeons as Mouths of Quantum Wormholes,” *arXiv:2505.02804* (2025). :contentReference[oaicite:19]{index=19}  
-4. S. Carroll, “ER = EPR: Entanglement as Spacetime,” *Quantum Frontiers* (May 2024). :contentReference[oaicite:20]{index=20}  
-5. J. Ren & K. Zhou, “General Relativistic Wormhole Connections at Planck Scales,” *Int. J. Mod. Phys. D* **34** (2024): 2350059. :contentReference[oaicite:21]{index=21}  
-6. JWST Science Team, “Newfound Galaxy Class Indicates Early Black-Hole Growth,” *JWST Press Release* 101 (2025). :contentReference[oaicite:22]{index=22}  
-7. R. Gamba *et al.* “Parametrized Plunge-Merger-Ring-down Waveforms Beyond GR,” *Phys. Rev. D* **108** (2025): 024043. :contentReference[oaicite:23]{index=23}  
-8. LIGO Scientific Collaboration, “Testing Specific Theories Beyond GR with LIGO,” *LIGO T2300223* (2024). :contentReference[oaicite:24]{index=24}  
-9. Event Horizon Telescope Collaboration, “Polarization of Sagittarius A*,” *Astrophys. J.* **964** (2024): L25. :contentReference[oaicite:25]{index=25}  
-10. EHT-Europe Consortium, “Persistent Shadow of M87,” *Astron. Astrophys.* **673** (2025): A140. :contentReference[oaicite:26]{index=26}  
-11. M. Wielgus *et al.* “Time-Resolved Faraday Rotation Near Sagittarius A*,” *Astrophys. J.* **945** (2024): 124. :contentReference[oaicite:27]{index=27}  
+1. A. Kowalski *et al.* “Loop Quantum Gravity Effects on Black-Hole Physics and Their Astrophysical Signatures,” *JCAP* **2025** (06): 014.
+2. X. Calmet & B. Latosh, “Quantum Hair and Black-Hole Information,” *Phys. Rev. D* **102** (2025): 084027. 
+3. F. Lobo *et al.* “Planckeons as Mouths of Quantum Wormholes,” *arXiv:2505.02804* (2025).
+4. S. Carroll, “ER = EPR: Entanglement as Spacetime,” *Quantum Frontiers* (May 2024).
+5. J. Ren & K. Zhou, “General Relativistic Wormhole Connections at Planck Scales,” *Int. J. Mod. Phys. D* **34** (2024): 2350059.
+6. JWST Science Team, “Newfound Galaxy Class Indicates Early Black-Hole Growth,” *JWST Press Release* 101 (2025).
+7. R. Gamba *et al.* “Parametrized Plunge-Merger-Ring-down Waveforms Beyond GR,” *Phys. Rev. D* **108** (2025): 024043.  
+8. LIGO Scientific Collaboration, “Testing Specific Theories Beyond GR with LIGO,” *LIGO T2300223* (2024). 
+9. Event Horizon Telescope Collaboration, “Polarization of Sagittarius A*,” *Astrophys. J.* **964** (2024): L25. 
+10. EHT-Europe Consortium, “Persistent Shadow of M87,” *Astron. Astrophys.* **673** (2025): A140. 
+11. M. Wielgus *et al.* “Time-Resolved Faraday Rotation Near Sagittarius A*,” *Astrophys. J.* **945** (2024): 124.  
