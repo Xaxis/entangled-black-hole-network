@@ -17,9 +17,11 @@ Classical general relativity (GR) predicts that the interior of an astrophysical
 
 When Oppenheimer and Snyder first described gravitational collapse in 1939, they revealed that an infalling shell reaches a surface of no return—the event horizon—beyond which all timelike trajectories terminate at *r* = 0 in finite proper time.  Classical GR renders the invariant curvature scalar  
 
+\$
 \[
 K \;=\; R_{\mu\nu\rho\sigma}\,R^{\mu\nu\rho\sigma}
 \]
+$
 
 divergent at that center, signaling a breakdown of the theory.  Contemporary quantum-gravity programmes, however, modify the Schwarzschild or Kerr metric with Planck-suppressed corrections that **regularize the blow-up**.  Loop-quantum-gravity (LQG) “polymerization,” higher-derivative effective field terms, and string-theoretic fuzzballs each yield finite curvature radii and dual-horizon structures :contentReference[oaicite:3]{index=3}.  Phenomenologically, these modifications introduce gravitational echoes, quantum hair, or firewalls, but *not* infinities.  
 
