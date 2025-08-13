@@ -195,7 +195,7 @@ We implemented a hybrid **graph + spacetime solver**:
    (ii) Ray-trace polarized radiative transfer around horizon-resolved MHD simulations to obtain EHT images.  
    (iii) Propagate curvature perturbations to the last-scattering surface and compute CMB anisotropies via *CAMB* modified to accept $T^{\text{info}}_{\mu\nu}$ inputs.
 
-Simulation results reproduce *Planck* TT and EE spectra within statistical error, while predicting $B$-mode anomalies at $\ell\approx150$.
+Simulation results reproduce *Planck* TT and EE spectra within statistical error, while predicting B-mode anomalies at $\ell\approx150$.
 
 ---
 
