@@ -1,3 +1,10 @@
+---
+title: "The Entangled Black-Hole Network and the Emergent Geometry of the Universe "
+description: "An exposition anchoring cosmology in quantum information."
+pubDate: 2025-08-07
+tags: ["cosmology", "astrophysics", "blackholes"]
+---
+
 # The Entangled Black-Hole Network and the Emergent Geometry of the Universe  
 *An exposition anchoring cosmology in quantum information*  
 
