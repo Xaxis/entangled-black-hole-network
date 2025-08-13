@@ -6,9 +6,6 @@ tags: ["cosmology", "astrophysics", "blackholes"]
 ---
 
 # The Entangled Black-Hole Network and the Emergent Geometry of the Universe  
-*An exposition anchoring cosmology in quantum information*  
-
-Wil Neeley — August 2025  
 
 ---
 
