@@ -1,8 +1,8 @@
 ---
 title: "The Entangled Black-Hole Network and the Emergent Geometry of the Universe "
-description: "An exposition anchoring cosmology in quantum information."
+description: "A theoretical framework in which all astrophysical black holes form a cosmic entanglement graph whose connectivity sources spacetime curvature. By promoting entanglement entropy to a stress–energy term in modified Einstein equations, the Entangled Black-Hole Network explains late-time cosmic acceleration without fine tuning, accounts for rapid early SMBH growth, and predicts observable signatures in gravitational waves, horizon-scale polarization, and CMB anisotropies."
 pubDate: 2025-08-07
-tags: ["cosmology", "astrophysics", "blackholes"]
+tags: ["cosmology", "astrophysics", "black holes", "entanglement", "ER=EPR", "quantum gravity"]
 ---
 
 # The Entangled Black-Hole Network and the Emergent Geometry of the Universe  
